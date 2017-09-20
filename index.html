@@ -4,15 +4,30 @@
         .container {
             align-items: center;
             display: flex;
+            font-family: helvetica;
+            font-size: 30px;
+            height: 100%;
             justify-content: center;
             position: relative;
-            height: 100%;
         }
         .main-word {
-            position: absolute
+            position: absolute;
+            z-index: 1;
         }
         .word {
             position: absolute;
+        }
+        .red {
+            color: red;
+        }
+        .blue {
+            color: blue;
+        }
+        .green {
+            color: green;
+        }
+        .yellow {
+            color: yellow;
         }
     </style>
 </head>
@@ -20,10 +35,10 @@
     
     <div class="container">
         <div class="main-word">🔥AWESOMESAUSEEE</div>
-        <div class="word">🔥AWESOMESAUSEEE</div>
-        <div class="word">🔥AWESOMESAUSEEE</div>
-        <div class="word">🔥AWESOMESAUSEEE</div>
-        <div class="word">🔥AWESOMESAUSEEE</div>
+        <div class="word red">🔥AWESOMESAUSEEE</div>
+        <div class="word blue">🔥AWESOMESAUSEEE</div>
+        <div class="word green">🔥AWESOMESAUSEEE</div>
+        <div class="word yellow">🔥AWESOMESAUSEEE</div>
     </div>
 
     <script src="script.js"></script>
