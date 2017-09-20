@@ -17,23 +17,19 @@
         words.forEach((word, index) => {
             switch (index) {
                 case 0: {
-                    word.style.setProperty("transform", `translateX(${-left}px)`)
-                    word.style.setProperty("transform", `translateY(${top}px)`)
+                    word.style.setProperty("transform", `translate(${-left}px, ${top}px)`)
                     break
                 }
                 case 1: {
-                    word.style.setProperty("transform", `translateX(${left}px)`)
-                    word.style.setProperty("transform", `translateY(${top}px)`)
+                    word.style.setProperty("transform", `translate${left}px, ${top}px)`)
                     break
                 }
                 case 2: {
-                    word.style.setProperty("transform", `translateX(${-left}px)`)
-                    word.style.setProperty("transform", `translateY(${-top}px)`)
+                    word.style.setProperty("transform", `translate(${-left}px, ${-top}px)`)
                     break
                 }
                 case 3: {
-                    word.style.setProperty("transform", `translateX(${left}px)`)
-                    word.style.setProperty("transform", `translateY(${-top}px)`)
+                    word.style.setProperty("transform", `translate(${left}px, ${-top}px)`)
                     break
                 }
                 default: break
